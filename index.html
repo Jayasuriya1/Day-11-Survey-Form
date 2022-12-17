@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SurveyForm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h4>Name<span>*</span></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <input type="text" placeholder="Enter Your Frist Name" required >
+            </div>
+            <div class="col-6">
+                <input type="text" placeholder="Enter Your Last Name" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                First
+            </div>
+            <div class="col-6">
+               Last
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <h4>Email<span>*</span></h4>
+            </div>
+            <div class="col-12">
+                <input type="email" placeholder="Enter Your Email" required>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <h5>Your Experience<span>*</span></h5>
+            </div>
+            <div class="col-12">
+                ⭐⭐⭐⭐⭐
+            </div>
+            
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <div class="col-12">
+                    overall, how would you rate you experience with us?
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5>How satisfied are you with<span>*</span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col text-center">Very Unsatisfied</div>
+            <div class="col text-center">Unsatisfied</div>
+            <div class="col text-center">Neutral</div>
+            <div class="col text-center">Satisfied</div>
+            <div class="col text-center">Very satisfied</div>
+        </div>
+        <div class="row" style="background-color:#D3D3D3 ;">
+            <div class="col-3 ">Purchase</div>
+            <div class="col text-center">
+                <input type="radio" name="Purchase" value="Very Unsatisfied">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Purchase" value="Unsatisfied">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Purchase" value="Neutral">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Purchase" value="Satisfied">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Purchase" value="Very satisfied">
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-3">Service</div>
+            <div class="col text-center">
+                <input type="radio" name="Service" value="Very Unsatisfied">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Service" value="Unsatisfied">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Service" value="Neutral">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Service" value="Satisfied">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Service" value="Very satisfied">
+            </div>
+        </div>
+        <div class="row " style="background-color:#D3D3D3 ;">
+            <div class="col-3">Company overall</div>
+            <div class="col text-center" >
+                <input type="radio" name="Company overall" value="Very Unsatisfied">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Company overall" value="Unsatisfied">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Company overall" value="Neutral">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Company overall" value="Satisfied">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Company overall" value="Very satisfied">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <h5>How likely are you to<span>*</span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col text-center">Very Unlikely</div>
+            <div class="col text-center">Unlikely</div>
+            <div class="col text-center">Neutral</div>
+            <div class="col text-center">likely</div>
+            <div class="col text-center">Very likely</div>
+        </div>
+        <div class="row" style="background-color:#D3D3D3 ;">
+            <div class="col-3 ">Buy from as again</div>
+            <div class="col text-center">
+                <input type="radio" name="Buy from as again" value="Very Unlikely">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Buy from as again" value="Unlikely">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Buy from as again" value="Neutral">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Buy from as again" value="likely">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Buy from as again" value="Very likely">
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-3">Recommand our product to others</div>
+            <div class="col text-center">
+                <input type="radio" name="Recommand our product to others" value="Very Unlikely">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Recommand our product to others" value="Unlikely">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Recommand our product to others" value="Neutral">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Recommand our product to others" value="likely">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Recommand our product to others" value="Very likely">
+            </div>
+        </div>
+        <div class="row " style="background-color:#D3D3D3 ;">
+            <div class="col-3">Recommand our company to others</div>
+            <div class="col text-center" >
+                <input type="radio" name="Recommand our company  to others" value="Very Unlikely">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Recommand our company  to others" value="Unlikely">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Recommand our company  to others" value="Neutral">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Recommand our company  to others" value="likely">
+            </div>
+            <div class="col text-center">
+                <input type="radio" name="Recommand our company  to others" value="Very likely">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <h5>Additional command or suggestion</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <textarea name="" id="" cols="30" rows="10" style="width:100% ;"></textarea>
+            </div>
+        </div>
+        <br>
+       <input type="submit" class="p-2" role="button" >
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
